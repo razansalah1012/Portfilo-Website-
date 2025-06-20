@@ -1,9 +1,9 @@
 <?php
 // Database credentials
-$servername = "sqlXXX.epizy.com";  // Replace with your database host
-$username = "epiz_12345678";       // Replace with your actual username
-$password = "your_password";       // Replace with your actual password
-$database = "epiz_12345678_portfolio_db"; // Replace with your actual database name
+$servername = "sqlXXX.epizy.com";  
+$username = "epiz_12345678";       
+$password = "your_password";       
+$database = "epiz_12345678_portfolio_db"; 
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
