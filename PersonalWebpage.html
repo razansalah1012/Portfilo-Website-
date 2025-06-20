@@ -1,0 +1,122 @@
+<!-- assignment 2 section 7-dr. pang yee yong
+ members:
+ Razan salah eldeen ahmed mohamed : A23CS4052
+ vasila sujavudeen : A23EC9012
+
+ This assignment involves designing and developing a personal website using HTML and CSS based on the third theme provided in the assignment brief. The project is titled "Roselyn".
+
+The website is structured as a one layout and includes the following main sections:
+1. navigation menu 
+2. dashboard
+3. Two personal profile sections for Razan and Vasila
+4. services section 
+5. contact 
+6. footer 
+
+Visually, the site follows a soft pastel color scheme with two main fonts (Quicksand and Lora), 
+Decorative touches like floating petals were added to enhance the visual creativity.
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roselyn</title>
+  <link rel="stylesheet" href="PersonalWebpage.css">
+</head>
+<img src="Pink-Hibiscus-Flower-Clipart-1024x1024-600x600.png" class="floating petal1">
+<img src="Pink-Hibiscus-Flower-Clipart-1024x1024-600x600.png" class="floating petal2">
+<img src="Pink-Hibiscus-Flower-Clipart-1024x1024-600x600.png" class="floating petal3">
+
+<body>
+
+  <!-- this is navigation menu, we have added two menus; right and left menu, also we have add the links to make it more easier for the user for hover-->
+  <nav class="menu">
+    <ul class="menu-left">
+      <li><a href="#dashboard">Dashboard</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+    </ul>
+    <ul class="menu-right">
+      <li><a href="#contact">Contact Us</a></li>
+      <li><a href="#copyright">Copyright</a></li>
+    </ul>
+  </nav>
+
+  <!-- this is a dashboard section about roselyn brand, we have added description about the brand and an image in this section to make it more origanzing -->
+  <div class="dashboard" id="dashboard">
+    <img src="roselyn img.jpeg" class="dashboard-image">
+    <div class="dashboard-text">
+      <h1>Roselyn</h1>
+      <h3>Crafted with heart, coded with style.</h3>
+      <p>
+        Roselyn is more than a name; it's a digital atelier where creativity meets code. Born from a passion for visual harmony and elegant design, Roselyn blends soft aesthetics with clean, structured web layouts. Every page crafted here is a quiet celebration of beauty, function, and emotion — a space where CSS becomes art and every pixel tells a story.
+      </p>
+    </div>
+  </div>
+
+  <!--this is About Us Section for razan, we've added the image to the right side and personal description -->
+  <div class="Personal" id="about">
+    <div class="Personal_text">
+      <h1>Razan Salah Eldeen Ahmed</h1>
+      <p>
+        Hi, I’m Razan! A lovely soul who finds joy in designing beautiful, amazing websites. I have a deep appreciation for color, layout, and the little details that bring a page to life. For me, coding isn't just logic; it's an art form. I aim to create digital experiences that feel thoughtful and inspiring. This space is where I share my journey, creations, and the things I love most about building for the web.
+      </p>
+    </div>
+    <img src="razan's photo.jpg" class="Personal_img">
+  </div>
+
+  <!-- this is About Us section for vasila, same as above, the only difference is we altered the image into the left side  -->
+   
+  <div class="Personal2">
+    <img src="vasila's pic.jpg" class="Personal2_img">
+    <div class="Personal2_text">
+      <h1>Vasila Sujavudeen</h1>
+      <p>
+        Hi, I’m Vasila! I love turning design ideas into beautiful, functional websites.
+        I enjoy working with modern layouts, clean CSS, and coding with care. I believe the web is
+        a place to express ideas beautifully and every section I build is a piece of that vision.
+      </p>
+    </div>
+  </div>
+
+  <!-- this is services section, it has description about the services of the brand -->
+  <div class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="service-card">
+        <h3>Web Design</h3>
+        <p>Responsive, elegant designs using HTML, CSS, and modern UI trends.</p>
+      </div>
+      <div class="service-card">
+        <h3>Frontend Development</h3>
+        <p>Building interactive websites with JavaScript and frontend frameworks.</p>
+      </div>
+      <div class="service-card">
+        <h3>Consultation</h3>
+        <p>Helping students and beginners get started with web development.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--this is Contact Us section for users to get their intersets and feedback -->
+  <div class="contact-us" id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <!-- Footer Section about copyrights -->
+  <footer class="footer" id="copyright">
+    <p>&copy; 2025 Roselyn. All rights reserved. Crafted with heart by Razan Salah and Vasila Sujavudeen.</p>
+  </footer>
+
+</body>
+</html>
